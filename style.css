@@ -1,0 +1,188 @@
+/*
+ Theme Name:   OnePress-Child Theme
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     onepress
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  onepress-child
+*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+.site-header.header-fixed{
+    background-color: green;
+}
+.site-content{
+    border:0!important;
+}
+.site-header{
+    margin-left: auto;
+    width: 82.5%!important;
+    margin-right: auto;
+    background-color: green !important;
+}
+.onepress-menu li a {
+    display: inline-block;
+    color: white;
+    font-size: 1.0em;
+    padding-top: 6px;
+    padding-right:24px;
+    text-decoration: none;
+}
+.onepress-menu li a:hover {
+    color: black;
+    font-weight: 600;
+}
+.site-branding .site-title, .site-branding, .site-text-logo{   
+    font-weight: bold;
+    color: white;
+}
+.site-footer{
+    width: 82.5% !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.site-text-logo {
+    color: white !important;
+}
+.navTitle{
+    font-size: 20px !important;
+    font-weight: bold;
+    padding: 10px;
+    background-color: green;
+    color: white;
+}
+.aboutcompany{
+    float: right;width: 54%;font-size: 22px;color: black;
+}
+hr {
+    border-top: 1px solid gold !important;
+    border-bottom: 2px solid green !important;
+}
+.aboutservice{
+    float: left;
+    width: 44%;
+    color: black;
+}
+input {
+    clear: both;
+    margin-bottom: 20px !important;
+    width: 100% !important;
+    height: 50px !important;
+    border: 0px !important;
+    border-bottom: 1px solid rgb(192, 182, 182) !important;
+    padding-left: 2% !important;
+}
+textarea {
+    clear: both;
+    margin-bottom: 20px !important;
+    width: 100% !important;
+    height: 50px !important;
+    border: 0px !important;
+    border-bottom: 1px solid rgb(192, 182, 182) !important;
+    padding-left: 2% !important;
+}
+.cleaningservices{
+    width: 100%;
+}
+.service {
+    float: left;
+    width: 25%;
+    padding: 1%;
+}
+.serviceImage {
+    clear: both;
+    width: 100%;
+}
+.serviceImage img{
+    width: 100%;
+    max-height: 144px;
+}
+.serviceAbout {
+    clear: both;
+    width: 100%;
+    text-align: left;
+    color: black;
+    font-size: 1.0em;
+}
+.serviceTitle {
+    background-color: blanchedalmond;
+    clear: both;
+    text-align: center;
+    padding: 2%;
+    font-variant-caps: all-petite-caps;
+    font-size: 1.3em;
+    color: black;
+    font-weight: bold;
+}
+.aboutpage-font{
+    font-size: 1.3em; 
+    color:black;
+}
+.aboutpage-image{
+    float:left;
+    width:40%;
+    margin-right: 5%;
+}
+.aboutpage-imageContent{
+    float:left;
+    width:55%;
+}
+.servicepage-image{
+    float:left;
+    width:40%;
+    margin-right: 5%;
+    
+
+}
+.servicepage-image img{
+    width: 70%;
+    max-height: 200px;
+}
+.servicepage-imageContent{
+    float:left;
+    width:55%;
+    font-size: 1.3em; 
+    color:black;
+}
+.clearfix{
+    clear: both;
+}
+h4 {
+    width: 100%;
+    clear: both;
+    font-weight: bold;
+    
+    
+}
+.site-info{
+    display: none;
+}
+.site-footer .footer-connect{
+    padding: 2px !important;
+    margin-top: 20px !important;
+}
+
+
+@media screen and (max-width:468px){
+    .site-header{
+        width: 90%!important;
+    }
+    .site-footer{
+        width: 90% !important;
+    }
+}
+
+@media screen and (max-width:768px){
+    .site-header{
+        width: 90%!important;
+    }
+    .site-footer{
+        width: 90% !important;
+    }
+}
